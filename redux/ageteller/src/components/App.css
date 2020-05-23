@@ -1,0 +1,39 @@
+.App {
+  padding: 5%;
+  max-width: 700px;
+  font-size: 16px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.MyForm {
+  justify-content: space-around;
+}
+
+.MyText {
+  align-self: center;
+}
+
+.party-popper {
+  width: 200px;
+  height: 200px;
+}
+
+.fade {
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+
+.age-stats {
+  opacity: 100;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
